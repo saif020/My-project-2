@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb97a323e7e9c67458ddbf32d8fcd7cd, type: 3}
+  m_Name: Grass_Light
+  m_EditorClassIdentifier: Assembly-CSharp::ProcGen2D.AutoTileSet2D
+  Tiles:
+  - {fileID: 11400000, guid: 0dc976d3d19839e49a0bde7a5d219e46, type: 2}
+  - {fileID: 11400000, guid: 5a405bb0ad874174eb3905fbb03d88f4, type: 2}
+  - {fileID: 11400000, guid: a2dd30dc6b680554eae46b74826a338c, type: 2}
+  - {fileID: 11400000, guid: 0683a4ffe21c52c4fadab1cc71bf1aff, type: 2}
+  - {fileID: 11400000, guid: 7ee0120d9c225a944866677d0892462b, type: 2}
+  - {fileID: 11400000, guid: 99c9efd96cdb4704abbfebcacd03f18c, type: 2}
+  - {fileID: 11400000, guid: 046efb67e877d0a4087bf52f59b96ed3, type: 2}
+  - {fileID: 11400000, guid: 9414bde8a6254504296be6da2f6df310, type: 2}
+  - {fileID: 11400000, guid: 5f0490adaf5a49a41a3c71e48684295c, type: 2}
+  - {fileID: 11400000, guid: bb09c781198bac644855b9653408e8e9, type: 2}
+  - {fileID: 11400000, guid: 952a7957ec7a97140a74a58596d6c6f7, type: 2}
+  - {fileID: 11400000, guid: a186900716e233c4c9638034ffec2b25, type: 2}
+  - {fileID: 11400000, guid: c01d7585c4891e14da764a994c431985, type: 2}

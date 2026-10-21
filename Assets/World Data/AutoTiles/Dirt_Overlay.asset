@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb97a323e7e9c67458ddbf32d8fcd7cd, type: 3}
+  m_Name: Dirt_Overlay
+  m_EditorClassIdentifier: Assembly-CSharp::ProcGen2D.AutoTileSet2D
+  Tiles:
+  - {fileID: 11400000, guid: 7069088ece8146f4289af0ad5eb1fd19, type: 2}
+  - {fileID: 11400000, guid: daf6dc21684567d48a269b8a1b63de26, type: 2}
+  - {fileID: 11400000, guid: 45c46419e3d524f4092dcaec363b0f6a, type: 2}
+  - {fileID: 11400000, guid: b2d010fc37ec0504e8289f56783ed503, type: 2}
+  - {fileID: 11400000, guid: 57a4e92c90680ae41b0efdafa5ad8e6c, type: 2}
+  - {fileID: 11400000, guid: 46df6414f6f913543925ed6bd7355f7e, type: 2}
+  - {fileID: 11400000, guid: ca16c2c6a1184fc449b7de36fa37f5ca, type: 2}
+  - {fileID: 11400000, guid: f71375aa8fb62694bb6ee4942642fee6, type: 2}
+  - {fileID: 11400000, guid: 895f0806892c7cc4193854f10d9fe7c1, type: 2}
+  - {fileID: 11400000, guid: 919bc0ccdf9f56347b13054a790c4aec, type: 2}
+  - {fileID: 11400000, guid: 6d59be49de7f3ed449c7a446c9a86e5c, type: 2}
+  - {fileID: 11400000, guid: 7b53ad0c290b55448b79d17f338b8179, type: 2}
+  - {fileID: 11400000, guid: ba14c6a8b49ae2847b308f91c1b2cb4b, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3b47fb1ff0e3042afec86b31ffaa0c, type: 3}
+  m_Name: WorldSettings2D
+  m_EditorClassIdentifier: Assembly-CSharp::ProcGen2D.WorldSettings2D
+  Seed: 39
+  WorldSizeInTiles: 2048
+  ChunkSizeInTiles: 64
+  LowResCellSizeInTiles: 1
+  SeedPointDensity: 0.01
+  BorderWarpAmplitude: 6
+  BorderWarpFrequency: 0.06
+  WaterBiome: {fileID: 11400000, guid: e3bc0f3a0d8f9b94bb4bdc47f94771e1, type: 2}
+  LakeFrequency: 0.015
+  LakeThreshold: 0.38
+  Biomes:
+  - {fileID: 11400000, guid: 4445d639c3f7ee743920b36bac39bcda, type: 2}
+  - {fileID: 11400000, guid: 5234a254528f5c24281a61a081977df3, type: 2}

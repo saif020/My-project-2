@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd8c86245aab5f43b30e8a4a3d50ad5, type: 3}
+  m_Name: BlobTileBuilder2D
+  m_EditorClassIdentifier: Assembly-CSharp::ProcGen2D.EditorTools.BlobTileSetBuilder2D
+  Source: {fileID: 2800000, guid: 016ab9b3c529ee4428bc119fb840e525, type: 3}
+  TileSize: 32
+  Frame: 0
+  FrameWidthInTiles: 8
+  OutputFolder: Assets/World Data/AutoTiles
+  Entries:
+  - Name: Water_Rock_Dark
+    Origin: {x: 0, y: 0}
+  - Name: Water_Rock_Light
+    Origin: {x: 0, y: 6}
+  - Name: Water_Foam
+    Origin: {x: 0, y: 42}

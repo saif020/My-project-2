@@ -82,6 +82,12 @@ namespace ProcGen2D
                 }
         }
 
+        /// 47-tile blob mask of cell (x, y) in a land mask (y points north).
+        public static int BlobMask(bool[,] m, int x, int y)
+            => BlobTileSet2D.Canonical(
+                Land(m, x, y + 1), Land(m, x + 1, y + 1), Land(m, x + 1, y), Land(m, x + 1, y - 1),
+                Land(m, x, y - 1), Land(m, x - 1, y - 1), Land(m, x - 1, y), Land(m, x - 1, y + 1));
+
         static bool Land(bool[,] m, int x, int y)
             => x >= 0 && y >= 0 && x < m.GetLength(0) && y < m.GetLength(1) && m[x, y];
     }

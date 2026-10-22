@@ -38,7 +38,7 @@ namespace ProcGen2D
             h.Add(Settings.LowResCellSizeInTiles); h.Add(Settings.SeedPointDensity);
             h.Add(Settings.BorderWarpAmplitude); h.Add(Settings.BorderWarpFrequency);
             h.Add(Settings.LakeFrequency); h.Add(Settings.LakeThreshold);
-            h.Add(Settings.WaterBiome);
+            h.Add(Settings.WaterBiome); h.Add(Settings.DefaultShoreSet);
             if (Settings.WaterBiome != null) { h.Add(Settings.WaterBiome.BaseTile); h.Add(Settings.WaterBiome.OverlaySet); }
             h.Add(Settings.Biomes.Count);
             foreach (var b in Settings.Biomes)
@@ -46,7 +46,7 @@ namespace ProcGen2D
                 if (b == null) { h.Add(0); continue; }
                 h.Add(b.SelectionWeight); h.Add(b.MinIntensity); h.Add(b.MaxIntensity);
                 h.Add(b.MinDecayRate); h.Add(b.MaxDecayRate);
-                h.Add(b.BaseTile); h.Add(b.OverlaySet);
+                h.Add(b.BaseTile); h.Add(b.OverlaySet); h.Add(b.ShoreSet);
             }
             return h.ToHashCode();
         }

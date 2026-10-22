@@ -29,6 +29,7 @@
 *.inputactions          unity-json
 *.shadergraph           unity-json
 *.shadersubgraph        unity-json
+*.json                  unity-json
 
 # Unity UI Toolkit files
 *.tss                   text diff=css linguist-language=css
@@ -68,7 +69,7 @@
 
 # Exclude from GitHub stats and diffs: third-party plugins, packages lock file
 Assets/Plugins/**           linguist-generated
-Packages/packages-lock.json linguist-generated
+Packages/packages-lock.json linguist-generated text eol=lf
 
 # Unity LFS
 *.cubemap               lfs

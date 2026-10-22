@@ -23,5 +23,7 @@ namespace ProcGen2D
         public TileBase BaseTile;
         [Tooltip("Optional autotiled layer drawn above the base (e.g. Grass_Light on a grass biome).")]
         public AutoTileSet2D OverlaySet;
+        [Tooltip("Shore style used when a LAKE lies over this biome (e.g. Water_Rock_Light or Water_Foam). Empty = use the world's Default Shore Set.")]
+        public BlobTileSet2D ShoreSet;
     }
 }

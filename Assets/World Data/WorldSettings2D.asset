@@ -20,8 +20,9 @@ MonoBehaviour:
   BorderWarpAmplitude: 6
   BorderWarpFrequency: 0.06
   WaterBiome: {fileID: 11400000, guid: e3bc0f3a0d8f9b94bb4bdc47f94771e1, type: 2}
+  DefaultShoreSet: {fileID: 0}
   LakeFrequency: 0.015
-  LakeThreshold: 0.38
+  LakeThreshold: 0.316
   Biomes:
   - {fileID: 11400000, guid: 4445d639c3f7ee743920b36bac39bcda, type: 2}
   - {fileID: 11400000, guid: 5234a254528f5c24281a61a081977df3, type: 2}

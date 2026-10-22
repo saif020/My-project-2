@@ -31,6 +31,8 @@ namespace ProcGen2D
         [Header("Lakes (noise based, NOT part of the Ooze biomes list)")]
         [Tooltip("Biome data used for lake tiles. Leave empty for a world without lakes. Do not also put it in the Biomes list.")]
         public BiomeData2D WaterBiome;
+        [Tooltip("Shore style for lakes over biomes that don't define their own Shore Set. Empty = plain water tile, no shore.")]
+        public BlobTileSet2D DefaultShoreSet;
         [Tooltip("Lower = broader lakes. Wavelength is about 1 / frequency tiles.")]
         [Min(0.001f)] public float LakeFrequency = 0.015f;
         [Tooltip("Water where the lake noise is below this. Higher = more water (0.34 ~ 8%, 0.38 ~ 14%, 0.42 ~ 23%, rough estimates).")]

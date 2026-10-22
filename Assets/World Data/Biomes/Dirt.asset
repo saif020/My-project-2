@@ -21,3 +21,4 @@ MonoBehaviour:
   MaxDecayRate: 0.15
   BaseTile: {fileID: 11400000, guid: 7069088ece8146f4289af0ad5eb1fd19, type: 2}
   OverlaySet: {fileID: 0}
+  ShoreSet: {fileID: 11400000, guid: 00e108c1bcc008145bd33f51736aff87, type: 2}
